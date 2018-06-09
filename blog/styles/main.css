@@ -1,0 +1,23 @@
+body {
+    background-color: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+p {
+    color: grey;
+    padding: 10px;
+    background: rgb(213, 213, 251)
+}
+
+h1 {
+    color: rgb(243, 243, 243);
+    padding: 20px 20px 20px 20px;
+    background: rgb(11, 11, 42);
+}
+
+h3 {
+    color: rgb(11, 41, 122);
+    padding: 20px;
+    
+}
