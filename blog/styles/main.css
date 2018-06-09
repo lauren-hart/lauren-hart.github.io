@@ -1,23 +1,55 @@
-body {
-    background-color: none;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
+body
+ {
+    margin: 0;
 }
 
-p {
-    color: grey;
+header{
+    background: rgb(15, 15, 52);
     padding: 10px;
-    background: rgb(213, 213, 251)
+    font-size: 22;
 }
 
 h1 {
-    color: rgb(243, 243, 243);
-    padding: 20px 20px 20px 20px;
-    background: rgb(11, 11, 42);
+    background: rgb(15, 15, 52);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+    font-size: 22;
+}
+
+ul {
+    display: inline;
+}
+
+
+ul li
+{
+    display: inline-block;
+    background:  rgb(210, 209, 209);
+    color: rgb(37, 33, 33);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font: bolder;
+}
+
+ul li a{
+    color: black;
+}
+
+p{
+font-family: 'Courier New', Courier, monospace;
+background:  rgb(210, 209, 209);
+padding: 20px;
+margin: 0 0 0 50px;
 }
 
 h3 {
-    color: rgb(11, 41, 122);
-    padding: 20px;
-    
+
+    color: navy;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px 20px 20px 40px;
+    margin: 0;
 }
