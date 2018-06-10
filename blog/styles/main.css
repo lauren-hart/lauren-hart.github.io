@@ -1,22 +1,28 @@
-body
- {
-    margin: 0;
+
+html {
+        
 }
 
-header{
-    background: rgb(15, 15, 52);
-    padding: 10px;
-    font-size: 22;
+body
+ {
+    
+    margin: 0;
+    background:rgb(221, 222, 222);
+}
+
+header {
+    background:rgb(222, 192, 200);
+    padding: 20px;
+    font-family: 'Amatic SC', cursive; 
 }
 
 h1 {
-    background: rgb(15, 15, 52);
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color:rgb(104, 101, 101);
     padding: 10px;
     margin: 0;
     display: inline;
-    font-size: 22;
+    font-size: 40px;
+    background:rgb(153, 186, 180);
 }
 
 ul {
@@ -27,29 +33,38 @@ ul {
 ul li
 {
     display: inline-block;
-    background:  rgb(210, 209, 209);
-    color: rgb(37, 33, 33);
-    font-family: 'Courier New', Courier, monospace;
+    background:rgb(222, 192, 200);
+    color:rgb(104, 101, 101);
     padding: 10px 10px;
     margin: 10px 10px;
-    font: bolder;
+    font-size: 25px;
+
 }
 
 ul li a{
-    color: black;
+    color:rgb(104, 101, 101);
+    font-size: 25px;
 }
 
 p{
-font-family: 'Courier New', Courier, monospace;
-background:  rgb(210, 209, 209);
-padding: 20px;
-margin: 0 0 0 50px;
+    background:rgb(175, 192, 188);
+    padding: 20px;
+    margin: 0 0 0 50px;
+    letter-spacing: 0px;
+    font-family: 'Neucha', cursive;
+    line-height: 25px;
 }
 
 h3 {
-
-    color: navy;
-    font-family: 'Courier New', Courier, monospace;
+    color:rgb(104, 101, 101);
     padding: 30px 20px 20px 40px;
     margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Neucha', cursive;
+
+}
+
+.intro {
+    background: none;
+    margin: 20px 0 0 30px;
 }
