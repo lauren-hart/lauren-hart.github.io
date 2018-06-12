@@ -68,3 +68,8 @@ h3 {
     background: none;
     margin: 20px 0 0 30px;
 }
+
+a:hover { 
+    color: rgb(235, 121, 239);
+    
+    } 
