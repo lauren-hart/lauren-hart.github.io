@@ -32,13 +32,14 @@ ul {
 
 ul li
 {
-    display: inline-block;
+   display: inline-block;
     background:rgb(222, 192, 200);
     color:rgb(104, 101, 101);
     padding: 10px 10px;
     margin: 10px 10px;
-    font-size: 25px;
-
+    font-size: 25px;\border-width: 0px;
+    border-style: solid;
+    border-color: #607D8B;
 }
 
 ul li a{
