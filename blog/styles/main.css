@@ -56,9 +56,10 @@
 
     .row-border {
         border-bottom: solid rgb(68, 148, 165) 1.5px; 
+        margin-bottom: 30px;
     }
 
-    h3 {
+    .h3-header {
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 100;
@@ -68,10 +69,22 @@
         margin-left: 10px;
     }
 
+    .h3-p {
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: 100;
+        color: rgb(68, 148, 165);
+        text-decoration: underline;
+        margin: 0;
+        padding: 20px 0 0 20px;
+        
+    }
 
     p {
-        text-transform: uppercase;
-        text-align: center;
+        text-transform: none;
+        text-align: left;
+        font-size: 15px;
+        padding: 10px 0 0 20px;
     }
 
     img{
@@ -92,7 +105,23 @@
         padding-left: 30px
     }
 
+    .row-p {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
 
+    .box-img {
+        width: 20%;
+        padding: 0 0 0 20px;
+    }
+    
+    h4 {
+        text-transform: capitalize;
+        margin: 0 0 0 0;
+        padding-left: 30px
+        
+    }
 
     .row {
         width: 100%;
