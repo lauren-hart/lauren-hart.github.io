@@ -1,4 +1,7 @@
 
+/* Box grid -----------------
+*/
+
 * { 
     outline: 1px solid #947676 !important; 
     } 
@@ -13,43 +16,7 @@
 /* Index Page -----------------
 */
 
-.wrapper {
-    background: #E9E9E9; 
-    font-family: 'Gothic A1', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: #276681; 
-}
-
-
-/* Header -----------------
-*/
-
-
-.index-h1 {
-    margin: 0;
-    letter-spacing: 2.5px;
-}
-
-.index-h3 {
-    margin: 0;
-    letter-spacing: 2.5px;
-}
-
-/* Header Underline -----------------
-*/
-
-.underline {
-    border: solid 1px;
-}
-
-/* Header Underline -----------------
-*/
-
-
-/* Cultural container -----------------
-*/
-
-.pic-1 {
+.column,
+.columns {
     width: 100%;
 }
