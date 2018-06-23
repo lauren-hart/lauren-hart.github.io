@@ -1,6 +1,6 @@
 
 * { 
-    outline: 1px transparent #947676 !important; 
+    outline: 1px solid #947676 !important; 
     } 
     
     * { 
@@ -44,59 +44,13 @@
     border: solid 1px;
 }
 
-/* Index Pictures -----------------
+/* Header Underline -----------------
+*/
+
+
+/* Cultural container -----------------
 */
 
 .pic-1 {
-    width: 80%;
-    margin-left:20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.pic-2 {
-    width: 80%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-/* About and Blog Headings (index) -----------------
-*/
-
-.h5-section-1 {
-    letter-spacing: 1px;
-    margin-left: 20%;
-    border: solid 1px;
-}
-
-.h5-section-2 {
-    letter-spacing: 1px;
-    margin-right: 20%;
-    border: solid 1px;
-}
-
-/* Links to blogs (index) -----------------
-*/
-
-.index-nav-1 li {
-    list-style-type: none;
-    margin-left: 20%;
-
-}
-
-.index-nav-2 li {
-    list-style-type: none;
-    margin-right: 20%
-}
-
-.a-index {
-    padding: 5px;
-    color: #276681;
-
-}
-
-li a:hover {
-    background: grey;
-    color: white;
+    width: 100%;
 }
