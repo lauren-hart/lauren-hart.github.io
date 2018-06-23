@@ -8,9 +8,7 @@
     border:1px solid grey;
 }
 
-img {
-    width: 100%;
-}
+
 
 /* Responsive Images */
-img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+img { outline: 0; max-width: 100%; height: auto; }
