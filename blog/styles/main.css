@@ -72,15 +72,30 @@
         
     }
 
-    .h4-nav {
+    .h4-section {
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
       text-transform: uppercase;
-      font-size: 17px;
+      font-size: 25px;
+      color: white;
+      font-weight: 100;
+      text-align: center;
+      border: 1px solid rgb(68, 148, 165) ; 
+      padding: 5px;
+      background: rgb(174, 181, 183);
+      }
+
+    .index-nav {
+      text-transform: uppercase;
+      font-size: 15px;
       color: rgb(68, 148, 165);
       font-weight: 100;
       text-align: center;
-      padding: 20px;
-      margin: 20px
+      padding: 10px;
       }
+
+   
 
           
     h4 {
@@ -97,26 +112,34 @@
     .a-index {
       color: rgb(68, 148, 165);
       padding: 15px;
-      border-style: solid;
-      border-width: 1px;  
+    
     }
 
     a:hover { 
       color: rgb(245, 246, 247);
       border-style: solid;
       border-width: thin;
-      padding: 15px;
+      padding: 10px;
       background: rgb(174, 181, 183);
           } 
 
-    ul {
-      text-align: center;
-    }
+        li {
+            text-transform: uppercase;
+            font-size: 17px;
+            color: rgb(68, 148, 165);
+            font-weight: 100;
+            text-align: center;
+            padding: 10px;
+            display: inline-block;
+            list-style-type: none;
+    
+            }
 
-    ul li {
-      padding: 20px 11px 0 11px;
+    .index-nav li {
       font-size: 15px;
-      display: inline-block;
+      list-style-type: none;
+      display: block;
+      
     }
 
     ul li a { 
@@ -136,26 +159,25 @@
     }
 
     .row-p {
-        width: 100%;
+        width: 100%;a
         margin-bottom: 10px;
     }
 
     img{
-        padding-top: 30px;
-        width: 100%;
+        width: 
     }
 
     .pic-1 {
-        padding-right: 30px
+        width: 85%;
+        padding-left: 15%;
+       
     }
 
     .pic-2 {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .pic-3 {
-        padding-left: 30px
+         width: 85%;
+        padding-left: 15%;
+       
+      
     }
 
     .box-img {
