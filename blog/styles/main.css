@@ -1,14 +1,121 @@
 
+/* BOX GRID -----------------
+*/
+
+* { 
+    outline: 1px transparent #947676 !important; 
+    } 
+    
+    * { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box; 
+    } 
+
 /* Index Page -----------------
 */
+
+.wrapper-index {
+    font-family: 'Gothic A1', sans-serif;
+    background: #ececf3;
+    color: rgb(68, 148, 165);
+    text-align: center;
+}
 
 .column,
 .columns {
     width: 100%;
-    border:1px solid grey;
+}
+
+/* HEADER -----------------
+*/
+
+.header {
+    margin: 0 0 0 0;
+    letter-spacing: 2px;
+}
+
+.h1-header, .h4-header {
+    margin: 0;
+    text-transform: uppercase;
 }
 
 
 
+/* HEADER underline -----------------
+*/
+
+.header-border {
+    border-bottom: solid 1px;
+    margin: 0 5% 5% 5%;
+}
+
 /* Responsive Images */
 img { outline: 0; max-width: 100%; height: auto; }
+
+/* Images -----------------------------
+*/
+
+.index-pics {
+    margin: 5% 0;
+}
+
+/* Cultural and Technical -----------------------------
+*/
+
+ul li {
+    list-style-type: none;
+}
+
+.technical-li {
+    text-transform: none;
+}
+
+.cultural-li {
+    text-transform: capitalize;
+}
+
+.h4-nav {
+    text-transform: uppercase;
+    border: solid 1px;
+    margin-top: 5%;
+}
+
+ul li a { 
+    color:rgb(68, 148, 165);
+    padding: 2%;
+} 
+
+.a-index:hover {
+    color: white !important;
+    background: rgb(174, 181, 183);
+    padding: 2%;
+}
+
+/* Social Media Icons -----------------------------
+*/
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(84, 83, 90);
+   
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* HEADER underline -----------------
+*/
+
+.footer-border {
+    border-top: solid 1px;
+    margin: 0 5%;
+
+}
