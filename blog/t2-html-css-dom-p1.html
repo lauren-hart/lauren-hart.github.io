@@ -1,143 +1,189 @@
-<!doctype html>
-<html lang="en"> 
-
-<!--Basic Page Needs
------------------------------------------------------------- -->
-        
-    <head> 
-        <title>Technical Part 1</title> 
-
-<!--Mobile Specific Metas
--------------------------------------------------------------- -->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
  
 
-<!--Fonts
--------------------------------------------------------------- -->
+<!--Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<html lang="en">
+<head>
+  <title>html/css/dom part 1</title>
+  <meta charset="UTF-8">
 
-        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">  
 
 <!--CSS
--------------------------------------------------------------- -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css" />
+</head>
 
-<!-- Scripts
------------------------------------------------------------------->
 
-    </head> 
+<!--CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Primary Page Layout
---------------------------------------------------------------- -->
-   
-     <body class="wrapper">
-         
-<!-- Header
---------------------------------------------------------------- -->
-        <header>
-                    <nav class="row">
-                        <div class="col-3">
-                            <h1>html/css/dom pt.1</h1> 
-                        </div>
-                            <ul class="col-9"> 
-                                <li><a href="../index.html">Home</a></li> 
-                                <li><a href="c1-time-and-habits-blog.html">Time & Habits</a></li> 
-                                <li><a href="c1-reflection-blog.html">Reflections</a></li>
-                                <li>html/css/dom pt. 1</li>
-                                <li><a href="t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
-                                <li><a href="c2-emotional-intelligence.html">emotional intelligence</a></li>
-                            </ul>
-                    </nav>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<body class="wrapper-index">
+
+
+<!--SIDE NAVIGATION
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="sidenav">
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          
+          <ul>
+
+            <li><h6 class="drop-h6"><a href="../index.html">Home</a></h6></li>
+
+            <li class="drophead"><h6 class="drop-h6">cultural</h6>
+              <ul>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-reflection-blog.html">Reflections</a></li>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
+              </ul>
+            </li>
+
+            <li class="drophead"><h6 class="drop-h6">technical</h6>
+              <ul>
+                  <li class="dropdown">html/css/dom pt. 1</li>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
+                </ul>
+            </li>
+
+          </ul>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section class="header">
+    <div class="container">
+      <div class="row">               
+        <div class="twelve columns">
+          <h1 class="h1-header">html/css/dom part 1</h1>
+          <h4 class="h4-header">phase zero</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Heading underline
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
                     
-                    <div class="row"><h3 class="h3-header">phase zero</h3></div>
-                </header>
+  <div class="row">
+    <section class="header-border"></section>
+  </div>
 
-<!-- Header Underline
---------------------------------------------------------------- -->
-                
-                <div class="row-border"></div>
 
 <!-- Question 1
---------------------------------------------------------------- -->
-        
-                <div class="row-p">
-                            <div class="col-9">
-                                <h3 class="h3-p">Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h3>
-                            </div>
-                            <div class="col-9">
-                                <p>
-                                    It is kind of like baking a cake. The recipe is the document object model (DOM). 
-                                    The recipe holds the structure of how everything comes together.
-                                </p>
-                            </div>
-                            <div class="col-9">
-                                <p>
-                                    The core ingredients and the method of how to bake the cake is the HTML. 
-                                    The recipe will start with a header which will include the title of what you 
-                                    are baking. You could then have a list of the ingredients required and how much.
-                                </p>
-                            </div>
-
-                            <div class="col-9">
-                                <p>
-                                    You could group the ingredients into categories by adding a div tag. 
-                                    For example you could group the dry ingredients by adding a div tag to distinguis the dry ingredients. You could also add a div tag to ingredients 
-                                    where they have the same properties, for example if you need a teaspoon of 
-                                    salt and a teaspoon of baking powder you could add a div tag - 
-                                    "1-teaspoon" that way when you want to change something that 
-                                    has only 1 teaspoon you would use the class 1-teaspoon. The method of 
-                                    how to bake the cake would be in paragraphs. Each paragraph describing each step.
-                                </p>
-                            </div>
-                            <div class="col-9">
-                                <p>
-                                    You then need to decorate the cake. You could choose what colour 
-                                    icing you use, what message to write on the cake. The style of the piping 
-                                    you might use. This is the CSS. The visually appealing part of the cake.
-                                </p>
-                            </div>
-                            <div class="col-9">
-                                <p>
-                                    You could then alter the recipe of the cake (HTML) but you could keep 
-                                    the same decoration (CSS). Or vice versa.
-                                </p>
-                            </div>
-                </div>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h9>
+                    <p>
+                        It is kind of like baking a cake. The recipe is the document object model (DOM). 
+                        The recipe holds the structure of how everything comes together. <br>
+                        The core ingredients and the method of how to bake the cake is the HTML. 
+                        The recipe will start with a header which will include the title of what you 
+                        are baking. You could then have a list of the ingredients required and how much.<br>
+                        You could group the ingredients into categories by adding a div tag. 
+                        For example you could group the dry ingredients by adding a div tag to distinguis the dry ingredients. You could also add a div tag to ingredients 
+                        where they have the same properties, for example if you need a teaspoon of 
+                        salt and a teaspoon of baking powder you could add a div tag - 
+                        "1-teaspoon" that way when you want to change something that 
+                        has only 1 teaspoon you would use the class 1-teaspoon. The method of 
+                        how to bake the cake would be in paragraphs. Each paragraph describing each step.<br>
+                        You then need to decorate the cake. You could choose what colour 
+                        icing you use, what message to write on the cake. The style of the piping 
+                        you might use. This is the CSS. The visually appealing part of the cake.<br>
+                        You could then alter the recipe of the cake (HTML) but you could keep 
+                        the same decoration (CSS). Or vice versa.
+                    </p>
+            </div>
+        </div>
+    </div>
 
 <!-- Question 2
---------------------------------------------------------------- -->
-        
-                <div class="row-p">
-                        <h3 class="h3-p">What is it meant by boxifying desing?</h3>
-                            <div class="col-9">
-                                <p>
-                                    Boxifying the design means breaking the website down into all boxes that 
-                                    are on the page. For example the header is a box, the heading (h1) in the 
-                                    header is also a box, the logo (img) in the header is also a box.
-                                </p>
-                            </div>
-                </div>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">What is it meant by boxifying desing?</h9>
+                    <p>
+                        Boxifying the design means breaking the website down into all boxes that 
+                        are on the page. For example the header is a box, the heading (h1) in the 
+                        header is also a box, the logo (img) in the header is also a box.
+                    </p>
+            </div>
+        </div>
+    </div>
 
 <!-- Question 3
---------------------------------------------------------------- -->
-         
-                <div class="row-p">
-                        <h3 class="h3-p">What is the box model?</h3>
-                        <div class="col-9">
-                                <p>
-                                    The box model is a box that wraps around every element in HTML. It consists 
-                                    of: margins, padding, and the actual content. When you are editing pages 
-                                    in the dev tools in chrome, you can click on an element and it will show 
-                                    you the box model of that specific html element.
-                                </p>
-                        </div>
-                        <h4>box model</h4>
-                        <img class="box-img" src="images/box.png" alt="box.png">
-                </div>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">What is the box model?</h9>
+                    <p>
+                        The box model is a box that wraps around every element in HTML. It consists 
+                        of: margins, padding, and the actual content. When you are editing pages 
+                        in the dev tools in chrome, you can click on an element and it will show 
+                        you the box model of that specific html element.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--footer underline
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                    
+<div class="row">
+    <section class="footer-border"></section>
+  </div>
 
 <!-- Footer
---------------------------------------------------------------- -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+                    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="offset-by-two eight columns">
+              <a href="https://www.facebook.com/laurenannehart" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/laurnhart/" class="fa fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/lauren-hart-01551620/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+      </div>
+    </footer>
 
-  </body>
+</body>
 </html>
+
+
+
+
+
+   

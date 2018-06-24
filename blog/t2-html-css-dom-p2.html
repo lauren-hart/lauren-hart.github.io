@@ -1,127 +1,193 @@
-<!doctype html>
-<html lang="en"> 
-
-<!--Basic Page Needs
------------------------------------------------------------- -->
-        
-    <head> 
-        <title>Technical Part 2</title> 
-
-<!--Mobile Specific Metas
--------------------------------------------------------------- -->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
  
 
-<!--Fonts
--------------------------------------------------------------- -->
+<!--Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<html lang="en">
+<head>
+  <title>html/css/dom part 2</title>
+  <meta charset="UTF-8">
 
-        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">  
 
 <!--CSS
--------------------------------------------------------------- -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css" />
+</head>
 
-<!-- Scripts
------------------------------------------------------------------->
 
-    </head> 
+<!--CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Primary Page Layout
---------------------------------------------------------------- -->
-   
-     <body class="wrapper">
-         
-<!-- Header
---------------------------------------------------------------- -->
-        <header>
-                    <nav class="row">
-                        <div class="col-3">
-                            <h1>html/css/dom pt.2</h1> 
-                        </div>
-                            <ul class="col-9"> 
-                                <li><a href="../index.html">Home</a></li> 
-                                <li><a href="c1-time-and-habits-blog.html">Time & Habits</a></li> 
-                                <li><a href="c1-reflection-blog.html">Reflections</a></li>
-                                <li><a href="t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
-                                <li>html/css/dom pt. 2</li>
-                                <li><a href="c2-emotional-intelligence.html">emotional intelligence</a></li>
-                            </ul>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-                    </nav>
+<!--Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<body class="wrapper-index">
+
+
+<!--SIDE NAVIGATION
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="sidenav">
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          
+          <ul>
+
+            <li><h6 class="drop-h6"><a href="../index.html">Home</a></h6></li>
+
+            <li class="drophead"><h6 class="drop-h6">cultural</h6>
+              <ul>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-reflection-blog.html">Reflections</a></li>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
+              </ul>
+            </li>
+
+            <li class="drophead"><h6 class="drop-h6">technical</h6>
+              <ul>
+                  <li class="dropdown"><a class="a-dropdown"href="blog/t1-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
+                  <li class="dropdown">html/css/dom pt. 2</li>
+                </ul>
+            </li>
+
+          </ul>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section class="header">
+    <div class="container">
+      <div class="row">               
+        <div class="twelve columns">
+          <h1 class="h1-header">html/css/dom part 2</h1>
+          <h4 class="h4-header">phase zero</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Heading underline
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
                     
-                        <div class="row"><h3 class="h3-header">phase zero</h3></div>
-        
-                </header>
+  <div class="row">
+    <section class="header-border"></section>
+  </div>
 
-<!-- Header Underline
---------------------------------------------------------------- -->
-                
-                <div class="row-border"></div>
 
-<!-- Question 1 
---------------------------------------------------------------- -->
-        
-                <div class="row-p">
-                        <h3 class="h3-p">What is grid based design?</h3>
-                            <div class="col-9">
-                                <p>
-                                    A grid-based design is one that works in and around the constraints 
-                                    of a row-and-column-based grid system to help keep your content nicely 
-                                    aligned. A grid is a series of intersecting horizontal and vertical lines 
-                                    that serve as guides to place elements in a design. To put it in simple 
-                                    words, grids are a system for creating order among elements in a website.
-                                </p>
-                            </div>    
-                </div>
+<!-- Question 1
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">What is grid based design?</h9>
+                    <p>
+                        A grid-based design is one that works in and around the constraints 
+                        of a row-and-column-based grid system to help keep your content nicely 
+                        aligned. A grid is a series of intersecting horizontal and vertical lines 
+                        that serve as guides to place elements in a design. To put it in simple 
+                        words, grids are a system for creating order among elements in a website.
+                    </p>
+            </div>
+        </div>
+    </div>
 
 <!-- Question 2
---------------------------------------------------------------- -->
-        
-                <div class="row-p">
-                        <h3 class="h3-p">What's all the hype about responsive webpages?</h3>
-                            <div class="col-9">
-                                <p>
-                                    It is the only way to make websites available to all users no 
-                                    matter which type of device is used to view the content. Mobile 
-                                    browsing use is rapidly growing and could one day overtake internet browsing.
-                                </p>
-                            </div>
-                </div>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">What's all the hype about responsive webpages?</h9>
+                    <p>
+                        It is the only way to make websites available to all users no 
+                        matter which type of device is used to view the content. Mobile 
+                        browsing use is rapidly growing and could one day overtake internet browsing.
+                    </p>
+            </div>
+        </div>
+    </div>
 
 <!-- Question 3
---------------------------------------------------------------- -->
-         
-                <div class="row-p">
-                        <h3 class="h3-p">What is semantic structure?</h3>
-                            <div class="col-9"> 
-                                <p>
-                                    In HTML it is the tags we use to mark a document up. Creating semantic 
-                                    markup is nothing more complicated than understanding the language of 
-                                    HTML and using it to create a document that has semantic meaning.
-                                </p>
-                            </div>
-                </div>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">What is semantic structure?</h9>
+                    <p>
+                        In HTML it is the tags we use to mark a document up. Creating semantic 
+                        markup is nothing more complicated than understanding the language of 
+                        HTML and using it to create a document that has semantic meaning.
+                    </p>
+            </div>
+        </div>
+    </div>
 
-<!-- Question 2
---------------------------------------------------------------- -->
+<!-- Question 4
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h9 class="h9-p">Points of Interest</h9>
+                    <p>
+                        I have learnt how important it is to code, test and refine. 
+                        The most important part is to get the layout correct first before 
+                        customising the website. If you are unsure of anything you can 
+                        always find the answer by searching the web.
+                    </p>
+            </div>
+        </div>
+    </div>
 
-                <div class="row-p">
-                        <h3 class="h3-p">Points of Interest</h3>
-                            <div class="col-9">
-                                <p>
-                                    I have learnt how important it is to code, test and refine. 
-                                    The most important part is to get the layout correct first before 
-                                    customising the website. If you are unsure of anything you can 
-                                    always find the answer by searching the web.
-                                </p>
-                            </div>    
-                </div>
+
+
+
+<!--footer underline
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                    
+<div class="row">
+    <section class="footer-border"></section>
+  </div>
 
 <!-- Footer
---------------------------------------------------------------- -->
-            
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+                    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="offset-by-two eight columns">
+              <a href="https://www.facebook.com/laurenannehart" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/laurnhart/" class="fa fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/lauren-hart-01551620/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+      </div>
+    </footer>
 
-  </body>
+</body>
 </html>
+
+
+
+
+
+   

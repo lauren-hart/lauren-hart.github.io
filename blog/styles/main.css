@@ -20,7 +20,7 @@
     font-family: 'Gothic A1', sans-serif;
     background: #ececf3;
     color: rgb(68, 148, 165);
-    text-align: center;
+  
 }
 
 .column,
@@ -104,12 +104,13 @@
 
 
 
-/* HEADER -----------------
+/* HEADER ----------------------------
 */
 
 .header {
     margin: 0 0 0 0;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .h1-header, .h4-header {
@@ -146,16 +147,21 @@ ul li {
 
 .technical-li {
     text-transform: none;
+    text-align: center;
+    
 }
 
 .cultural-li {
     text-transform: capitalize;
+    text-align: center;
+   
 }
 
 .h4-nav {
     text-transform: uppercase;
     border: solid 1px;
     margin-top: 5%;
+    text-align: center;
 }
 
 .index-li li a { 
@@ -176,7 +182,7 @@ ul li {
     padding: 20px;
     font-size: 50px;
     width: 50px;
-    text-align: center;
+    text-align: center !important;
     text-decoration: none;
     color: rgb(84, 83, 90);
    
@@ -187,11 +193,28 @@ ul li {
     opacity: 0.7;
 }
 
-/* HEADER underline -----------------
+/* FOOTER -----------------------------
+*/
+
+footer {
+    text-align: center;
+}
+
+
+/* FOOTER Border -----------------
 */
 
 .footer-border {
     border-top: solid 1px;
     margin: 0 5%;
+
+}
+
+/* QUESTIONS -----------------
+*/
+
+.h9-p {
+    font-size: 20px;
+    text-align: left !important;
 
 }
