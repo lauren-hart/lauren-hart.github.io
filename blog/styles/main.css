@@ -59,7 +59,13 @@
     text-align: left;
 }
 
-.drophead {
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.droplist {
     margin: 0;
 }
 
@@ -171,8 +177,16 @@ img { outline: 0; max-width: 100%; height: auto; }
 .index-li li a { 
     color:rgb(68, 148, 165);
     padding: 2%;
+} 
+
+.index-li { 
     list-style-type: none;
 } 
+
+.droplist li {
+    color: black;
+}
+
 
 .a-index:hover {
     color: white !important;
