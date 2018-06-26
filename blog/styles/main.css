@@ -47,6 +47,21 @@
     left: 0;
 }
 
+/* Larger than mobile */
+/* Dropdown button (hide to not show on desktop) */
+
+@media screen and (min-width: 400px) {
+
+    .sidenav {
+        width: 120%; /* Set the width of the sidebar */
+        position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        margin: -2% 0 0 0;
+    }
+}
+
 /* DROPDOWN MENU -----------------
 */
 
@@ -80,6 +95,35 @@
     width: 250%;
 }
 
+/* Larger than mobile */
+/* Dropdown Content (unhide to show on desktop not mobile) */
+
+@media screen and (min-width: 400px) {
+
+    .dropdown-content {
+        display: list-item;
+        background-color: #ececf3;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin: 0;
+        width: 200px;
+        top: 0;
+        left: 0;
+        position: fixed;
+        height: 100%;
+    }
+}
+
+/* Larger than mobile */
+/* Dropdown button (hide to not show on desktop) */
+
+@media screen and (min-width: 400px) {
+
+    .dropbtn {
+        display: none;
+    }
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
     text-decoration: none;
@@ -106,37 +150,4 @@
     background: rgb(174, 181, 183);
 }
 
-/* Larger than mobile */
 
-/* Dropdown Content (unhide to show on desktop not mobile) */
-
-@media screen and (min-width: 400px) {
-
-    .dropdown-content {
-        display: list-item;
-        background-color: #ececf3;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        margin: 0;
-        width: 200px;
-        top: 0;
-        left: 0;
-        position: fixed;
-        height: 100%;
-    }
-
-    .dropbtn {
-        display: none;
-    }
-
-    .sidenav {
-        width: 120%; /* Set the width of the sidebar */
-        position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        margin: -2% 0 0 0;
-    }
-
- 
-}
