@@ -110,7 +110,7 @@
 
 /* Dropdown Content (unhide to show on desktop not mobile) */
 
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
 
     .dropdown-content {
         display: list-item;
