@@ -50,7 +50,7 @@
 /* Larger than mobile */
 /* Dropdown button (hide to not show on desktop) */
 
-@media screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
 
     .sidenav {
         width: 120%; /* Set the width of the sidebar */
@@ -98,7 +98,7 @@
 /* Larger than mobile */
 /* Dropdown Content (unhide to show on desktop not mobile) */
 
-@media screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
 
     .dropdown-content {
         display: list-item;
@@ -117,7 +117,7 @@
 /* Larger than mobile */
 /* Dropdown button (hide to not show on desktop) */
 
-@media screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
 
     .dropbtn {
         display: none;
