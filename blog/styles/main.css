@@ -18,18 +18,17 @@
 
 .wrapper-index {
     font-family: 'Gothic A1', sans-serif;
-    background: #ececf3;
+    background: a#ececf3;
     color: rgb(68, 148, 165);
 }
 
-@media only screen and (min-width: 600px) {
-    .wrapper-blog {
-        font-family: 'Gothic A1', sans-serif;
-        background: #ececf3;
-        color: rgb(68, 148, 165);
-        margin-left: 14%
-    }
-    }
+.wrapper-blog {
+    font-family: 'Gothic A1', sans-serif;
+    background: a#ececf3;
+    color: rgb(68, 148, 165);
+}
+
+
 
 .column,
 .columns {
@@ -82,7 +81,7 @@
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #ececf3;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -146,18 +145,24 @@
       list-style-type: none;
       font-weight: bolder'
   }
-
-
+}
 
 
 .sidenav {
-     /* Set the width of the sidebar */
-    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    height: 100%;
-    background-color: #ececf3;
-    margin-top: -20px;
+    display: none;
+}
+
+/* If the screen size is 600px wide or more, hide the element */
+@media (min-width: 600px) {
+.sidenav {
+    /* Set the width of the sidebar */
+   position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+   z-index: 1; /* Stay on top */
+   top: 0; /* Stay at the top */
+   height: 100%;
+   background-color: #ececf3;
+   margin-top: -20px;
+}
 }
 
 .sidenav-index {
@@ -177,7 +182,6 @@
     list-style-type: none;
     margin: 0;
 }
-
 }
 
 
@@ -190,17 +194,31 @@
 */
 
 .header {
-    margin: 1% 0 0 0;
+    margin: 10% 0 0 0;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .h1-header, .h4-header {
     margin: 0;
     text-transform: uppercase;
     border: none !important;
+    text-align: center
 }
 
+.h1-header {
+    margin: 2% 0;
+    font-size: 2em;
+}
+
+/* If the screen size is 600px wide or more, hide the element */
+@media only screen and (min-width: 600px) {
+    .h1-header {
+        font-size: 3em;
+    }
+}
+
+
+    
 
 
 /* HEADER UNDERLINE INDEX PAGE -----------------
@@ -220,7 +238,7 @@
         border-bottom: solid 1px;
         margin: 0 5% 2% 5%;
     }
-
+}
 
 
 
@@ -307,13 +325,20 @@ p {
 
 
 h4 {
-    font-size: 27px !important;
+    font-size: 1em;
     text-align: center !important;
     background: ;
     padding: 5px;
     width: 100%;
     border-bottom: solid 1px;
 }
+
+/* If the screen size is 600px wide or more, hide the element */
+@media only screen and (min-width: 600px) {
+    h4 {
+        font-size: 3em;
+        }
+    }
 
 /* WIREFRAME IMAGES -----------------------------
 */
