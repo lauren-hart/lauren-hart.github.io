@@ -15,7 +15,8 @@
 <!--Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">  
 
 <!--CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,58 +35,8 @@
 <!--Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<body class="wrapper-index">
-
-
-<!--SIDE NAVIGATION
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<div class="sidenav-index">
-    <div class="dropdown">
-      <div class="dropbtn">...</div>
-        <div class="dropdown-content-index">
-          
-          <ul class="no-bullets">
-
-<!-- HOME DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-            <li><h6 class="drop-h6">Home</h6></li>
-
-
-<!-- CULTURAL DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                    
-            <li class="drophead"><h6 class="drop-h6">cultural</h6>
-                
-                <ul>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/c1-reflection-blog.html">Reflections</a></li>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/c3-meditation-process.html">Meditation Process</a></li>
-                </ul>
-            </li>
-
-
-      <!-- TECHNICAL DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-            <li class="drophead"><h6 class="drop-h6">technical</h6>
-              <ul>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
-                  <li class="dropdown"><a class="a-dropdown"href="blog/t3-design-to-web.html">Design to web</a></li>
-                </ul>
-            </li>
-
-          </ul>
-
-        </div>
-    </div>
-    </div>
-</div>
-
-
+<body class="wrapper">
+  
 
 <!--HEADINGS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -115,16 +66,18 @@
   <div class="container">
     <div class="row">
       <div class="one-half column">
-        <img class="index-pics" src="blog/images/scotland-lake.jpg" alt="scotland-lake">
+        <img class="index-pics" src="blog/images/hebrides-beach.jpg" alt="hebrides-beach">
       </div>
       <div class="one-half column">
-        <h4 class="h4-nav">cultural</h4>
-          <ul class="index-li">
-            <li class="cultural-li"><a class="a-index" href="blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
-            <li class="cultural-li"><a class="a-index"href="blog/c1-reflection-blog.html">Reflections</a></li>
-            <li class="cultural-li"><a class="a-index"href="blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
-            <li class="cultural-li"><a class="a-index"href="blog/c3-meditation-process.html">meditation process</a></li>
-          </ul>
+        <h5 class="h5-nav">cultural</h5>
+          <nav class="nav-index">
+            <ul class="index-li">
+              <li class="index-li"><a class="a-index" href="blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
+              <li class="index-li"><a class="a-index"href="blog/c1-reflection-blog.html">Reflections</a></li>
+              <li class="index-li"><a class="a-index"href="blog/c2-emotional-intelligence.html">emotional intelligence</a></li>
+              <li class="index-li"><a class="a-index"href="blog/c3-meditation-process.html">meditation process</a></li>
+            </ul>
+          </nav>
         </div>
       </div>     
     </div>
@@ -135,25 +88,21 @@
   <div class="container">
     <div class="row">
       <div class="one-half column">
-        <img class="index-pics" src="blog/images/hebrides-beach.jpg" alt="hebrides-beach">
+        <img class="index-pics" src="blog/images/cornwall-horses.jpg" alt="cornwall-1">
       </div>
       <div class="one-half column">
-        <h4 class="h4-nav">technical</h4>
-          <ul class="index-li">
-            <li class="technical-li"><a class="a-index"href="blog/t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
-            <li class="technical-li"><a class="a-index"href="blog/t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
-            <li class="technical-li"><a class="a-index"href="blog/t3-design-to-web-blog.html">Design to Web</a></li>
-          </ul>
+        <h5 class="h5-nav">technical</h5>
+          <nav class="nav-index">
+            <ul class="index-li">
+              <li class="index-li"><a class="a-index"href="blog/t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
+              <li class="index-li"><a class="a-index"href="blog/t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
+              <li class="index-li"><a class="a-index"href="blog/t3-design-to-web-blog.html">Design to Web</a></li>
+            </ul>
+          </nav>
       </div>
     </div>     
   </div>
 
-<!--footer underline
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                    
-<div class="row">
-    <section class="footer-border"></section>
-  </div>
 
 <!-- Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
