@@ -16,6 +16,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 <!--CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,62 +35,12 @@
 <!--Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<body class="wrapper-blog">
-
-
-<!--SIDE NAVIGATION
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<div class="sidenav">
-    <div class="dropdown">
-      <div class="dropbtn">Menu</div>
-        <div class="dropdown-content">
-          
-          <ul class="no-bullets">
-
-<!-- HOME DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-            <li><h6 class="drop-h6"><a href="../index.html">Home</a></h6></li>
-
-
-<!-- CULTURAL DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                    
-            <li class="drophead"><h6 class="drop-h6">cultural</h6>
-              
-                <ul>
-                  <li class="li-dropdown"><a class="a-dropdown"href="c1-time-and-habits-blog.html">Time & Habits</a></li>
-                  <li class="li-dropdown"><a class="a-dropdown"href="c1-reflection-blog.html">Reflections</a></li>
-                  <li class="li-dropdown"><a class="a-dropdown"href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-                  <li class="li-dropdown"><a class="a-dropdown"href="c3-meditation-process.html">Meditation Process</a></li>
-                </ul>
-            </li>
-
-
-      <!-- TECHNICAL DROPDOWN 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-            <li class="drophead"><h6 class="drop-h6">technical</h6>
-              <ul>
-                  <li class="li-dropdown">html/css/dom pt. 1</li>
-                  <li class="li-dropdown"><a class="a-dropdown"href="t2-html-css-dom-p2.html">html/css/dom pt.2</a></li>
-                  <li class="li-dropdown"><a class="a-dropdown"href="t3-design-to-web-blog.html">Design to web</a></li>
-                </ul>
-            </li>
-
-          </ul>
-
-          </div>
-      </div>
-    </div>
-</div>
-
+<body class="wrapper">
 
 <!--HEADINGS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section class="header">
+  <header class="header">
     <div class="container">
       <div class="row">               
         <div class="twelve columns">
@@ -98,22 +49,15 @@
         </div>
       </div>
     </div>
-  </section>
-
-<!--Heading underline
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                    
-  <div class="row">
-    <section class="header-border-blog"></section>
-  </div>
-
+  </header>
 
 <!-- Question 1
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h4>
                     <p>
                         It is kind of like baking a cake. The recipe is the document object model (DOM). 
                         The recipe holds the structure of how everything comes together. <br>
@@ -133,49 +77,80 @@
                         You could then alter the recipe of the cake (HTML) but you could keep 
                         the same decoration (CSS). Or vice versa.
                     </p>
+                </div>
             </div>
         </div>
     </div>
 
 <!-- Question 2
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What is it meant by boxifying desing?</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What is it meant by boxifying desing?</h4>
                     <p>
                         Boxifying the design means breaking the website down into all boxes that 
                         are on the page. For example the header is a box, the heading (h1) in the 
                         header is also a box, the logo (img) in the header is also a box.
                     </p>
+                </div>
             </div>
         </div>
     </div>
 
 <!-- Question 3
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What is the box model?</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What is the box model?</h4>
                     <p>
                         The box model is a box that wraps around every element in HTML. It consists 
                         of: margins, padding, and the actual content. When you are editing pages 
                         in the dev tools in chrome, you can click on an element and it will show 
                         you the box model of that specific html element.
                     </p>
+                </div>
             </div>
         </div>
     </div>
 
-
-
-<!--footer underline
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- NAVIGATION
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
                     
-<div class="row">
-    <section class="footer-border"></section>
-  </div>
+    
+<div class="row blog-nav">
+        <nav class="blog-nav">
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav"><a class="a-blog"href="../index.html">Home</a></h6>
+            </div>
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav">cultural</h6>
+                    <ul class="blog-nav">
+                        <li><a class="a-blog"href="c1-time-and-habits-blog.html">Time & Habits</a></li>
+                        <li><a class="a-blog"href="c1-reflection-blog.html">Reflections</a></li>
+                        <li><a class="a-blog"href="c2-emotional-intelligence.html">emotional intelligence</a></li>
+                        <li><a class="a-blog"href="c3-meditation-process.html">meditation process</a></li>
+                    </ul>
+            </div>
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav">technical</h6>
+                    <ul class="blog-nav">
+                        <li class="index-li"><a class="a-blog"href="t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
+                        <li class="index-li"><a class="a-blog"href="t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
+                        <li class="index-li"><a class="a-blog"href="t3-design-to-web-blog.html">Design to Web</a></li>
+                    </ul>
+            </div>
+    
+    
+    
+        </nav>  
+    </div>
 
 <!-- Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  

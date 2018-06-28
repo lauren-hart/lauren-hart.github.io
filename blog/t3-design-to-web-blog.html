@@ -16,6 +16,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300|Gothic+A1:300" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 <!--CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,64 +35,13 @@
 <!--Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<body class="wrapper-blog">
-
-
-<!--SIDE NAVIGATION
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div class="sidenav">
-        <div class="dropdown">
-          <div class="dropbtn">Menu</div>
-            <div class="dropdown-content">
-              
-              <ul class="no-bullets">
-    
-    <!-- HOME DROPDOWN 
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    
-                <li><h6 class="drop-h6"><a href="../index.html">Home</a></h6></li>
-    
-    
-    <!-- CULTURAL DROPDOWN 
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                        
-                <li class="drophead"><h6 class="drop-h6">cultural</h6>
-                  <ul>
-    
-    
-    
-                      <li class="li-dropdown"><a class="a-dropdown"href="c1-time-and-habits-blog.html">Time & Habits</a></li>
-                      <li class="li-dropdown"><a class="a-dropdown"href="c1-reflection-blog.html">Reflections</a></li>
-                      <li class="li-dropdown"><a class="a-dropdown"href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-                      <li class="li-dropdown"><a class="a-dropdown"href="c3-meditation-process.html">Meditation Process</a></li>
-                  </ul>
-                </li>
-    
-    
-          <!-- TECHNICAL DROPDOWN 
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    
-                <li class="drophead"><h6 class="drop-h6">technical</h6>
-                  <ul>
-                      <li class="li-dropdown"><a class="a-dropdown"href="t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
-                      <li class="li-dropdown"><a class="a-dropdown"href="t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
-                      <li class="li-dropdown">Design to web</li>
-                    </ul>
-                </li>
-    
-              </ul>
-    
-            </div>
-        </div>
-    
-    </div>
+<body class="wrapper">
 
 
 <!--HEADINGS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section class="header">
+  <header class="header">
     <div class="container">
       <div class="row">               
         <div class="twelve columns">
@@ -100,22 +50,15 @@
         </div>
       </div>
     </div>
-  </section>
-
-<!--Heading underline
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                    
-  <div class="row">
-    <section class="header-border-blog"></section>
-  </div>
-
+  </header>
 
 <!-- Question 1
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What a responsive site is, and why responsiveness is important</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What a responsive site is, and why responsiveness is important</h4>
                     <p>
                         A responsive site is designed in a way where the layout 
                         responds and adapts to the device you are viewing the site 
@@ -123,21 +66,24 @@
                         responsiveness is extremely important in order to reach 
                         users viewing your site on multiple devices. 
                     </p>
+                </div>
             </div>
         </div>
     </div>
 
 <!-- Question 2
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What mobile first design is, and why it's important.</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What mobile first design is, and why it's important.</h4>
                     <p>
                         “Mobile first”, as the name suggests, means that we start 
                         the product design from the mobile end which has more 
                         restrictions, then expand its features to create a tablet 
                         or desktop version.
+                    </p>
                     <p>
                         In short, the “mobile first” principle has an important 
                         role in product design. On the one hand, it helps to save 
@@ -146,16 +92,18 @@
                         attention to the content of a product, which helps them to 
                         created neat and practical designs.
                     </p>
+                </div>
             </div>
         </div>
     </div>
 
 <!-- Question 3
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What frameworks are, and their pros and cons.</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What frameworks are, and their pros and cons.</h4>
                     <p>
                         A framework is a standardized set of concepts, practices 
                         and criteria for dealing with a common type of problem, 
@@ -195,6 +143,7 @@
                         <li>Slower learning curve</li>
                         <li>You don’t learn to do it yourself</li>
                     </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -203,33 +152,39 @@
     <!-- Wire Frame Desktop
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4 class="wireframe-h4">Desktop Wireframes</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="wireframe-h4">Desktop Wireframes</h4>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="six columns">
-                <h6 class="wireframe-h6">Index Page</h6>
-            </div>
-            <div class="six columns">
-                <h6 class="wireframe-h6">Blog Pages</h6>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="six columns">
+                    <h6 class="wireframe-h6">Index Page</h6>
+                </div>
+                <div class="six columns">
+                    <h6 class="wireframe-h6">Blog Pages</h6>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="six columns">
-                <img class="wireframe-desktop" src="../images/wireframe-index-page-desktop.jpg">
-            </div>
-            <div class="six columns">
-                <img class="wireframe-desktop" src="../images/wireframe-blog-page-desktop.jpg">
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="six columns">
+                    <img class="wireframe" src="../images/wireframe-index-page-desktop.jpg">
+                </div>
+                <div class="six columns">
+                    <img class="wireframe" src="../images/wireframe-blog-page-desktop.jpg">
+                </div>
             </div>
         </div>
     </div>
@@ -237,33 +192,39 @@
     <!-- Wire Frame Mobile
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4 class="wireframe-h4">Mobile Wireframes</h4>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="wireframe-h4">Mobile Wireframes</h4>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="six columns">
-                <h6 class="wireframe-h6">Index Page</h6>
-            </div>
-            <div class="six columns">
-                <h6 class="wireframe-h6">Blog Pages</h6>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="six columns">
+                    <h6 class="wireframe-h6">Index Page</h6>
+                </div>
+                <div class="six columns">
+                    <h6 class="wireframe-h6">Blog Pages</h6>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="six columns">
-                <img class="wireframe-mobile" src="../images/wireframe-index-page-mobile.jpg">
-            </div>
-            <div class="six columns">
-                <img class="wireframe-mobile" src="../images/wireframe-blog-page-mobile.jpg">
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="six columns">
+                    <img class="wireframe" src="../images/wireframe-index-page-mobile.jpg">
+                </div>
+                <div class="six columns">
+                    <img class="wireframe" src="../images/wireframe-blog-page-mobile.jpg">
+                </div>
             </div>
         </div>
     </div>
@@ -271,66 +232,96 @@
 
 <!-- Question 4
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h4>What a wireframe is and why we use it.</h4>
-                <p>
-                    Wireframes are simple black and white layouts that outline 
-                    the specific size and placement of page elements, site features, 
-                    conversion areas and navigation for your website.
-                </p>
-                <p>
-                    They are devoid of color, font choices, logos or any 
-                    real design elements that take away from purely focusing 
-                    on a site’s structure.
-                </p>
-                <p>
-                    We often say that they are much like a blue print to a 
-                    home, where you can easily see the structural placement 
-                    of your plumbing, electrical and other structural elements 
-                    without any interior design treatments.
-                </p>
-                <p>
-                    Wireframing is an important communication tool in any 
-                    web or app project. It gives the client, developer, and 
-                    designer an opportunity to walk through the structure of 
-                    the website without getting sidetracked by design elements
-                    such as colors and images. For me, I believe that building
-                    a simple wireframe will save time in the long run and 
-                    ease the development process for the designer, developer, 
-                    and client.
-                </p>
+    <div class="container-blog">
+        <div class="blog-question">
+            <div class="row">
+                <div class="twelve columns">
+                    <h4 class="h4-blog">What a wireframe is and why we use it.</h4>
+                    <p>
+                        Wireframes are simple black and white layouts that outline 
+                        the specific size and placement of page elements, site features, 
+                        conversion areas and navigation for your website.
+                    </p>
+                    <p>
+                        They are devoid of color, font choices, logos or any 
+                        real design elements that take away from purely focusing 
+                        on a site’s structure.
+                    </p>
+                    <p>
+                        We often say that they are much like a blue print to a 
+                        home, where you can easily see the structural placement 
+                        of your plumbing, electrical and other structural elements 
+                        without any interior design treatments.
+                    </p>
+                    <p>
+                        Wireframing is an important communication tool in any 
+                        web or app project. It gives the client, developer, and 
+                        designer an opportunity to walk through the structure of 
+                        the website without getting sidetracked by design elements
+                        such as colors and images. For me, I believe that building
+                        a simple wireframe will save time in the long run and 
+                        ease the development process for the designer, developer, 
+                        and client.
+                    </p>
+                </div>    
             </div>
         </div>
     </div>
 
     <!-- Question 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div class="container">
-            <div class="row">
-                <div class="twelve columns">
-                    <h4>The aspects of your wireframes you found difficult to implement, and why.</h4>
-                    <p>
-                        I had my pictures side by side as a row and then a 
-                        row underneath with headings. I couldn't get this 
-                        layout to work on a mobile screen so I had to revert 
-                        to having a picture and heading in one row so that it 
-                        looked readable on the mobile layout. 
-                    </p>
+        <div class="container-blog">
+            <div class="blog-question">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h4 class="h4-blog">The aspects of your wireframes you found difficult to implement, and why.</h4>
+                        <p>
+                            I had my pictures side by side as a row and then a 
+                            row underneath with headings. I couldn't get this 
+                            layout to work on a mobile screen so I had to revert 
+                            to having a picture and heading in one row so that it 
+                            looked readable on the mobile layout. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     
 
-
-
-<!--footer underline
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- NAVIGATION
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
                     
-        <div class="row">
-            <section class="footer-border"></section>
-        </div>
+    
+<div class="row blog-nav">
+        <nav class="blog-nav">
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav"><a class="a-blog"href="../index.html">Home</a></h6>
+            </div>
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav">cultural</h6>
+                    <ul class="blog-nav">
+                        <li><a class="a-blog"href="c1-time-and-habits-blog.html">Time & Habits</a></li>
+                        <li><a class="a-blog"href="c1-reflection-blog.html">Reflections</a></li>
+                        <li><a class="a-blog"href="c2-emotional-intelligence.html">emotional intelligence</a></li>
+                        <li><a class="a-blog"href="c3-meditation-process.html">meditation process</a></li>
+                    </ul>
+            </div>
+    
+            <div class="four columns col-nav">
+                <h6 class="h6-nav">technical</h6>
+                    <ul class="blog-nav">
+                        <li class="index-li"><a class="a-blog"href="t2-html-css-dom-p1.html">html/css/dom pt. 1</a></li>
+                        <li class="index-li"><a class="a-blog"href="t2-html-css-dom-p2.html">html/css/dom pt. 2</a></li>
+                        <li class="index-li"><a class="a-blog"href="t3-design-to-web-blog.html">Design to Web</a></li>
+                    </ul>
+            </div>
+    
+    
+    
+        </nav>  
+    </div>
 
 <!-- Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  

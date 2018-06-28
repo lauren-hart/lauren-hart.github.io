@@ -13,403 +13,195 @@
     box-sizing: border-box; 
     } 
 
-/* Index Page -----------------
+
+/* WRAPPER -----------------
 */
 
-.wrapper-index {
-    font-family: 'Gothic A1', sans-serif;
-    background: a#ececf3;
-    color: rgb(68, 148, 165);
-}
-
-.wrapper-blog {
-    font-family: 'Gothic A1', sans-serif;
-    background: a#ececf3;
+.wrapper {
+    font-family: 'Nunito', sans-serif;
+    background: #ececf3;
     color: rgb(68, 148, 165);
 }
 
 
+/* HEADER -----------------
+*/
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 1px;
+    margin: 10px 20px 20px 20px;
+}
+
+.h1-header {
+    margin-bottom: 0;
+}
+
+.h4-header {
+    margin-bottom: 10px;
+}
+
+/* COLUMNS -----------------
+*/
 
 .column,
 .columns {
     width: 100%;
 }
 
-/* SIDE NAVIGATION -----------------
+/* IMAGES -----------------------------
 */
 
-.sidenav {
-    width: 10%; /* Set the width of the sidebar */
-    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-
-
+img {
+    padding: 0 20px;
 }
 
-/* DROPDOWN MENU -----------------
-*/
-
-.dropbtn {
-    font-size: 20px;
-    margin: 20px 20px 20px 20px;
-    color: rgb(68, 148, 165);
-    text-transform: uppercase;
-    padding: 10px;
-    
+.wireframe {
+    padding: 20px;
 }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    text-align: left;
-}
-
-.droplist {
-    margin: 0;
-}
-
-.drop-h6 {
-    text-transform: uppercase;
-    margin: 0;
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-/* Dropdown Content (Hidden by Default) */
-
-.dropdown-content {
-    display: block;
-    position: absolute;
-    background-color: #ececf3;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin: 0;
-    width: 280%;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    color: rgb(68, 148, 165) !important;
-    padding: 4px 4px;
-    font-weight: lighter !important;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {   
-    color: white !important;
-    background: rgb(174, 181, 183);
-    padding: 4px 4px;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {   
-    color: white !important;
-    background: rgb(174, 181, 183);
-}
-
-
-/* If the screen size is 600px wide or more, hide the element */
-@media only screen and (min-width: 600px) {
-    .dropbtn {
-        display: none;
-    }
-
-    .dropdown-content {
-        display: list-item;
-        background-color: #ececf3;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        margin: 0;
-        width: 200px;
-        top: 0;
-        left: 0;
-        position: fixed;
-        height: 100%;
-  }
-
-  .dropdown-content-index {
-      display: none;
-  }
-
-  .li-dropdown {
-      color: black;
-      list-style-type: none;
-      font-weight: bolder'
-  }
-}
-
-
-.sidenav {
-    display: none;
-}
-
-/* If the screen size is 600px wide or more, hide the element */
-@media (min-width: 600px) {
-.sidenav {
-    /* Set the width of the sidebar */
-   position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-   z-index: 1; /* Stay on top */
-   top: 0; /* Stay at the top */
-   height: 100%;
-   background-color: #ececf3;
-   margin-top: -20px;
-}
-}
-
-.sidenav-index {
-    display: none;
-}
-
-  
-
-.no-bullets-blog {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px
-
-}
-
-.no-bullets-blog {
-    list-style-type: none;
-    margin: 0;
-}
-}
-
-
-  /* Dropdown Content (Hidden by Default) */
-
-
-
-
-/* HEADER ----------------------------
-*/
-
-.header {
-    margin: 10% 0 0 0;
-    letter-spacing: 2px;
-}
-
-.h1-header, .h4-header {
-    margin: 0;
-    text-transform: uppercase;
-    border: none !important;
-    text-align: center
-}
-
-.h1-header {
-    margin: 2% 0;
-    font-size: 2em;
-}
-
-/* If the screen size is 600px wide or more, hide the element */
-@media only screen and (min-width: 600px) {
-    .h1-header {
-        font-size: 3em;
-    }
-}
-
-
-    
-
-
-/* HEADER UNDERLINE INDEX PAGE -----------------
-*/
-
-.header-border {
-    border-bottom: solid 1px;
-    margin: 0 5% 5% 5%;
-}
-
-/* HEADER UNDERLINE BLOG PAGES -----------------
-*/
-
-/* If the screen size is 600px wide or more, hide the element */
-@media only screen and (min-width: 600px) {
-    .header-border-blog {
-        border-bottom: solid 1px;
-        margin: 0 5% 2% 5%;
-    }
-}
-
-
 
 /* Responsive Images */
 img { outline: 0; max-width: 100%; height: auto; }
 
-/* Images -----------------------------
+/* NAV HEADINGS ------------------------------
 */
 
-.index-pics {
-    margin: 5% 0;
-}
-
-/* Cultural and Technical -----------------------------
-*/
-
-.no-bullets {
-    list-style-type: none;
-    margin: 20px;
-}
-
-.technical-li {
-    text-transform: none;
-    text-align: center;
-    
-}
-
-.cultural-li {
-    text-transform: capitalize;
-    text-align: center;
-   
-}
-
-.h4-nav {
+.h5-nav {
     text-transform: uppercase;
-    border: solid 1px;
-    margin-top: 5%;
     text-align: center;
+    border: solid 1px;
+    margin: 10px 20px;
 }
 
-.index-li li a { 
-    color:rgb(68, 148, 165);
-    padding: 2%;
-} 
+/* NAV LIST ------------------------------
+*/
 
-.index-li { 
+.index-li li {
+    display: list-item;
     list-style-type: none;
-} 
-
-.droplist li {
-    color: black;
+    text-align: center;
+    padding: 2%;
+    text-transform: capitalize;
 }
 
+.a-index {
+    color: rgb(68, 148, 165);
+}
 
 .a-index:hover {
     color: white !important;
     background: rgb(174, 181, 183);
     padding: 2%;
-}
+    }
 
-/* BLOG POSTS -----------------------------
+/* BLOG QUESTIONS ------------------------------
 */
 
-.blog-list {
-    margin-left: 80px;
-    margin-top: 20px
-    
+.h4-blog {
+    text-align: center;
+    border: solid 1px;
+    padding: 2%;
+    background:  rgb(112, 180, 196);
+    color: white;
+    font-weight: 100 !important;
+}
+
+.blog-question {
+    text-align: center;
+}
+
+/* If the screen size is 600px wide or more, decrease margin */
+@media only screen and (min-width: 400px) {
+.blog-question {
+        margin: 0 15%;
+    }
 }
 
 .h10-list {
     text-transform: uppercase;
-    margin-top: 100px;
-    margin-left: 50px;
-    text-decoration: underline;
-    font-weight: bolder;
-}
-
-
-p {
-    padding: 20px 20px 0 20px;
-    margin: 0;
-    text-align: center;
-}
-
-
-h4 {
-    font-size: 1em;
-    text-align: center !important;
-    background: ;
-    padding: 5px;
-    width: 100%;
+    padding: 10px;
+    font-size: 16px;
     border-bottom: solid 1px;
 }
 
-/* If the screen size is 600px wide or more, hide the element */
-@media only screen and (min-width: 600px) {
-    h4 {
-        font-size: 3em;
-        }
-    }
+.blog-list {
+    text-align: left !important;
+    margin: 5% 20%;
+    list-style-type: disc;
+}
 
-/* WIREFRAME IMAGES -----------------------------
+.wireframe-h6, .wireframe-h4 {
+    border: solid 1px;
+}
+
+
+
+/* NAVIGATION  ------------------------------
 */
 
-.wireframe-desktop {
-    width: 90%;
-    height: auto;
-    margin: 20px
+.blog-nav ul {
+    list-style-type: none;
+    display: list;
+    padding: 0 20px;
 }
 
-.wireframe-mobile {
-    height: 500px;
-    width: auto;
-    margin: 40px 0 30px 90px;
+.h6-nav {
+    text-transform: uppercase;
+    color: rgb(225, 225, 231);
+    padding:   5px 20px;
+    font-size: 18px;
+    border-bottom: solid 1px;
+    margin: 5px 20%;
 }
 
-.wireframe-h6 {
+.nav-border {
+    border: solid 1px;
+}
+
+.blog-nav {
     text-align: center;
-    font-size: 20px;
-    border: solid 1px;
-    background: #757b79;
-    color: white;
-}
-
-.wireframe-h4 {
-    border: solid 1px;
-    background: #3d3d48;
+    background: rgb(134, 139, 138);
 
 }
 
-.wireframe-mobile, .wireframe-desktop {
+.blog-nav ul li {
+    padding: 2%;
+    text-transform: capitalize;
+    margin: 0;
+    width: 100%;
+    font-size: 1.0em;
+}
 
+.a-blog {
+    color: rgb(225, 225, 231);
+    margin: 0;
+}
+
+.a-blog:hover {
+    color: rgb(68, 148, 165);
+    background: white;
 }
 
 
-/* Social Media Icons -----------------------------
+
+
+
+/*  FOOTER  ------------------------------
 */
 
 .fa {
     padding: 20px;
     font-size: 50px;
     width: 50px;
-    text-align: center !important;
     text-decoration: none;
     color: rgb(84, 83, 90);
-   
 }
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* FOOTER -----------------------------
-*/
 
 footer {
     text-align: center;
-}
-
-
-/* FOOTER Border -----------------
-*/
-
-.footer-border {
     border-top: solid 1px;
-    margin: 0 5%;
-    z-index: 1; /* Stay on top */
-    bottom: 0; /* Stay at the top */
-
+    margin: 20px;
 }
 
-/* QUESTIONS -----------------
-*/
+
