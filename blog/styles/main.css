@@ -176,6 +176,12 @@ img { outline: 0; max-width: 100%; height: auto; }
 .a-blog {
     color: rgb(225, 225, 231);
     margin: 0;
+    padding: 2%;
+}
+
+.active {
+    background: rgb(74, 80, 82);
+    color: white;
 }
 
 .a-blog:hover {
