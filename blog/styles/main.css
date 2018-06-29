@@ -57,6 +57,10 @@ img {
     padding: 0 20px;
 }
 
+.index-pics {
+    margin-top: 10px;
+}
+
 .wireframe {
     padding: 20px;
 }
@@ -67,6 +71,10 @@ img { outline: 0; max-width: 100%; height: auto; }
 /* NAV HEADINGS ------------------------------
 */
 
+.index {
+    margin-bottom: 2%;
+}
+
 .h5-nav {
     text-transform: uppercase;
     text-align: center;
@@ -74,8 +82,9 @@ img { outline: 0; max-width: 100%; height: auto; }
     margin: 10px 20px;
 }
 
-/* NAV LIST ------------------------------
+/* INDEX NAV LIST ------------------------------
 */
+
 
 .index-li li {
     display: list-item;
@@ -94,6 +103,12 @@ img { outline: 0; max-width: 100%; height: auto; }
     background: rgb(174, 181, 183);
     padding: 2%;
     }
+
+.index-li {
+    margin: 0;
+}
+
+
 
 /* BLOG QUESTIONS ------------------------------
 */
