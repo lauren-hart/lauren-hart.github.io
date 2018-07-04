@@ -124,6 +124,7 @@ img { outline: 0; max-width: 100%; height: auto; }
 
 .blog-question {
     text-align: center;
+    margin: 2%;
 }
 
 /* If the screen size is 600px wide or more, decrease margin */
@@ -136,8 +137,18 @@ img { outline: 0; max-width: 100%; height: auto; }
 .h10-list {
     text-transform: uppercase;
     padding: 10px;
-    font-size: 16px;
+    font-size: 15px;
     border-bottom: solid 1px;
+}
+
+/* If the screen size is 600px wide or more, decrease margin */
+@media only screen and (min-width: 400px) {
+.h10-list {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: solid 1px;
+}
 }
 
 .blog-list {
@@ -149,6 +160,27 @@ img { outline: 0; max-width: 100%; height: auto; }
 .wireframe-h6, .wireframe-h4 {
     border: solid 1px;
 }
+
+h5 {
+    text-transform: capitalize;
+    border: solid 1px;
+}
+
+
+
+    p {
+        font-size: 15px;
+    }
+
+
+/* If the screen size is 600px wide or more, decrease margin */
+@media only screen and (min-width: 400px) {
+    p {
+        font-size: 17px;
+    }
+}
+
+
 
 
 
