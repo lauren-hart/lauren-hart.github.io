@@ -180,9 +180,25 @@ h5 {
     }
 }
 
+/* TABLE  ------------------------------
+*/
+
+th {
+    text-transform: uppercase;
+}
 
 
+tr {
+    text-align: center;
+}
 
+th, td {
+    padding: 15px;
+}
+
+table {
+    border-spacing: 5px;
+}
 
 /* NAVIGATION  ------------------------------
 */
@@ -256,5 +272,4 @@ footer {
     border-top: solid 1px;
     margin: 20px;
 }
-
 
