@@ -183,21 +183,38 @@ h5 {
 /* TABLE  ------------------------------
 */
 
-th {
+.js-th {
     text-transform: uppercase;
-}
-
-
-tr {
+    vertical-align: text-top;
     text-align: center;
 }
 
-th, td {
+td {
     padding: 15px;
 }
 
 table {
     border-spacing: 5px;
+}
+
+li {
+    list-style-position: outside;
+}
+
+.h6-table {
+    text-decoration: underline;
+}
+
+.p-table {
+    font-size: 15px;
+}
+
+.sub-li {
+    list-style-type: disc;
+}
+
+.js-list  {
+    padding-left: 3%;
 }
 
 /* NAVIGATION  ------------------------------
