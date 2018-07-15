@@ -120,6 +120,7 @@ img { outline: 0; max-width: 100%; height: auto; }
     background:  rgb(112, 180, 196);
     color: white;
     font-weight: 100 !important;
+    text-transform: capitalize;
 }
 
 .blog-question {
