@@ -66,7 +66,10 @@
                 <div class="twelve columns">
                     <h4 class="h4-blog">What is scope?</h4>
                     <p>
-                        Scope is ...
+                        Scope is the accessibility of variables, functions, 
+                        and objects in some particular part of your code during 
+                        runtime. In other words, scope determines the visibility 
+                        of variables and other resources in areas of your code.
                     </p>
                 </div>
             </div>
@@ -80,9 +83,57 @@
             <div class="row">
                 <div class="twelve columns">
                     <h4 class="h4-blog">How does scope work in javascript?</h4>
-                    <p>
-                        It works by ...
-                    </p>
+                        <h5>Global Scope</h5>
+                            <p>
+                                Each function when invoked creates
+                                a new scope.
+                            </p>
+                            <p>
+                                There is only one global scope throughout a 
+                                javascript document. When you start writing in 
+                                a JavaScript document you are already in the Global
+                                scope. A variable is in the Global scope if it's 
+                                defined outside of a function.   
+                            </p>
+                            <p>
+                                Variables inside the Global scope can be accessd
+                                and altered in any other scope.      
+                            </p>
+                            <p>
+                                Do not create global variables unless you intend to.
+                            </p>
+                            <p>
+                                Automatically Global - If you assign a value to
+                                a variable that has not been declared, it will 
+                                automatically become a GLOBAL variable.
+                            </p>
+                        
+                        <h5>Local Scope</h5>
+                            <p>
+                                They become LOCAL to the function.
+                            </p>
+                            <p>
+                                They have function scope, they can only be
+                                accessed from within the function. 
+                            </p>
+                            <p>
+                                Variables defined inside a fucntion are in the 
+                                local scope. They have a different scope for every
+                                call of that function. This means that variables having
+                                the same name can be used in different functions.
+                                This is because those variables are bound to their
+                                respective functions, each having different scopes,
+                                and are not accessible in other functions.
+                            </p>
+                            <p>
+                                Local variables are created when a function starts,
+                                and deleted when a function is completed. 
+                            </p>
+
+
+
+                        
+                    
                 </div>
             </div>
         </div>
