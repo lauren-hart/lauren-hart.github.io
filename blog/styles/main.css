@@ -88,10 +88,11 @@ img { outline: 0; max-width: 100%; height: auto; }
 
 .index-li li {
     display: list-item;
-    list-style-type: none;
-    text-align: center;
+    list-style-type: square;
+    text-align: left;
     padding: 2%;
     text-transform: capitalize;
+    margin-left: 11%;
 }
 
 .a-index {
