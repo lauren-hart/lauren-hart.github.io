@@ -184,7 +184,7 @@ h5 {
 /* TABLE  ------------------------------
 */
 
-.js-th {
+.js-th, .scarf-th {
     text-transform: uppercase;
     vertical-align: text-top;
     text-align: center;
