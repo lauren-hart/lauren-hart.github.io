@@ -16,32 +16,38 @@ function start() {
 
  function addEventListener () {
 
-    var val = document.getElementsByTagName("p");
+    var val = document.getElementsByClassName("colours");
 
         for (var i = 0; i < val.length; i++) {
-            val[i].addEventListener("click", checkClass)
+            val[i].addEventListener("click", checkId)
         }
+
+
+    
     }
 
-function checkClass () {
+function checkId () {
 
-    if (this.className === 'blue') {
+    if (this.id === 'blue') {
         document.getElementById("easel").style.backgroundColor = "blue";
 
-    }  else if (this.className === 'green') {
+    }  else if (this.id === 'green') {
         document.getElementById("easel").style.backgroundColor = "rgb(21, 231, 21)";
 
-    }  else if (this.className === 'red') {
+    }  else if (this.id === 'red') {
         document.getElementById("easel").style.backgroundColor = "rgb(231, 46, 21)";
 
-    }  else if (this.className === 'purple') {
+    }  else if (this.id === 'purple') {
         document.getElementById("easel").style.backgroundColor = "rgb(172, 18, 233)";
 
-    }  else if (this.className === 'pink') {
+    }  else if (this.id === 'pink') {
         document.getElementById("easel").style.backgroundColor = "rgb(231, 21, 186)";
 
-    }  else if (this.className === 'yellow') {
+    }  else if (this.id === 'yellow') {
         document.getElementById("easel").style.backgroundColor = "yellow";
+    
+    } else if (this.id === "eraser") {
+        document.getElementById("easel").style.backgroundColor = "white";
     }
 
 }

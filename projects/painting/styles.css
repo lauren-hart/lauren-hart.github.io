@@ -43,49 +43,49 @@ header {
 }
 
 
-.blue {
+#blue {
     border: solid 1px blue;
     height: 45px;
     margin: 10% 30%;
     background: blue;
 }
 
-.green {
+#green {
     border: solid 1px rgb(21, 231, 21);
     height: 45px;
     margin: 10% 30%;
     background: rgb(21, 231, 21);
 }
 
-.red {
+#red {
     border: solid 1px rgb(231, 46, 21);
     height: 45px;
     margin: 10% 30%;
     background:  rgb(231, 46, 21);
 }
 
-.pink {
+#pink {
     border: solid 1px rgb(231, 21, 186);
     height: 45px;
     margin: 10% 30%;
     background:  rgb(231, 21, 186);
 }
 
-.purple {
+#purple {
     border: solid 1px rgb(172, 18, 233);
     height: 45px;
     margin: 10% 30%;
     background:  rgb(172, 18, 233);
 }
 
-.yellow {
+#yellow {
     border: solid 1px yellow;
     height: 45px;
     margin: 10% 30%;
     background: yellow;
 }
 
-.eraser {
+#eraser {
     width: 130px;
     margin-bottom: 30px;
     
