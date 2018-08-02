@@ -96,13 +96,6 @@ header {
 
 }
 
-
-
-
-
-
-
-
 #myAnimation {
     text-align: center;
     width: 300px;
@@ -116,7 +109,7 @@ header {
 }
 
 #picture {
-    width: 50px;
+    width: 50px;letter-spacing: normal;
 }
 
 .sidebar {
