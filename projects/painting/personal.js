@@ -29,25 +29,33 @@ function start() {
 function checkId () {
 
     if (this.id === 'blue') {
-        document.getElementById("easel").style.backgroundColor = "blue";
+
+        document.getElementById("easel").style.backgroundColor = 'blue';
+        document.getElementById("header").style.backgroundColor = 'blue';
 
     }  else if (this.id === 'green') {
         document.getElementById("easel").style.backgroundColor = "rgb(21, 231, 21)";
+        document.getElementById("header").style.backgroundColor = "rgb(21, 231, 21)";
 
     }  else if (this.id === 'red') {
         document.getElementById("easel").style.backgroundColor = "rgb(231, 46, 21)";
+        document.getElementById("header").style.backgroundColor = "rgb(231, 46, 21)";
 
     }  else if (this.id === 'purple') {
         document.getElementById("easel").style.backgroundColor = "rgb(172, 18, 233)";
+        document.getElementById("header").style.backgroundColor = "rgb(172, 18, 233)";
 
     }  else if (this.id === 'pink') {
         document.getElementById("easel").style.backgroundColor = "rgb(231, 21, 186)";
+        document.getElementById("header").style.backgroundColor = "rgb(231, 21, 186)";
 
     }  else if (this.id === 'yellow') {
         document.getElementById("easel").style.backgroundColor = "yellow";
-    
+        document.getElementById("header").style.backgroundColor = "yellow";
+
     } else if (this.id === "eraser") {
         document.getElementById("easel").style.backgroundColor = "white";
+        document.getElementById("header").style.backgroundColor = "white";
     }
 
 }

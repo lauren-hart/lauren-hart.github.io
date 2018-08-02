@@ -4,7 +4,7 @@
 */
 
 * { 
-    outline: 1px solid #947676 !important; 
+    outline: 1px transparent #947676 !important; 
     } 
     
     * { 
@@ -36,7 +36,7 @@ header {
 
     
     background: white;
-    border: solid 1px black;
+    border: solid 1px white;
     height: 600px;
     margin: 10% 20%;
     cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;
@@ -44,42 +44,43 @@ header {
 
 
 #blue {
-    border: solid 1px blue;
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background: blue;
+    
 }
 
 #green {
-    border: solid 1px rgb(21, 231, 21);
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background: rgb(21, 231, 21);
 }
 
 #red {
-    border: solid 1px rgb(231, 46, 21);
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background:  rgb(231, 46, 21);
 }
 
 #pink {
-    border: solid 1px rgb(231, 21, 186);
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background:  rgb(231, 21, 186);
 }
 
 #purple {
-    border: solid 1px rgb(172, 18, 233);
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background:  rgb(172, 18, 233);
 }
 
 #yellow {
-    border: solid 1px yellow;
+    border: solid 1px white;
     height: 45px;
     margin: 10% 30%;
     background: yellow;
