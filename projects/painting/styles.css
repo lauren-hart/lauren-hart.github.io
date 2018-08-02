@@ -20,6 +20,7 @@
 
 body {
     background-image: url("images/rainbow-colors-background.jpg");
+    cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;
 
 }
 
@@ -30,6 +31,7 @@ header {
     font-size: 40px;
     text-align: center;
     background: rgb(238, 236, 133);
+    margin-bottom: 2%;
 }
 
 #easel {
@@ -38,8 +40,9 @@ header {
     background: white;
     border: solid 1px white;
     height: 600px;
-    margin: 10% 20%;
-    cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;
+    margin: 10% 30%;
+    
+
 }
 
 
@@ -93,27 +96,31 @@ header {
 
 }
 
-.sidenav-right {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    top: 0; /* Stay at the top */
-    right: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding: 10% 2%;
+
+
+
+
+
+
+
+#myAnimation {
     text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 2%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-bottom: -6%;
+    margin-left: 32%;
 }
 
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-
-    top: 0; /* Stay at the top */
-    left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding: 30% 2%;
-    text-align: center;
+#picture {
+    width: 50px;
 }
 
-
+.sidebar {
+    display: inline-block;
+    position: absolute;
+    padding: 15% 2%;;
+}
