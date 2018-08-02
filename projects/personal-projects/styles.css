@@ -1,5 +1,19 @@
 
 
-.row {
-    background: grey;
+body {
+    background: rgb(232, 231, 235);
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(238, 236, 133);
+}
+
+#easel {
+    border: solid 1px black;
+    height: 600px;
+    margin: 10% 20%;
 }
