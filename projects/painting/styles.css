@@ -1,9 +1,28 @@
 
 
+/* BOX GRID -----------------
+*/
+
+* { 
+    outline: 1px solid #947676 !important; 
+    } 
+    
+    * { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box; 
+    } 
+
+
+
+
+
 body {
-    background: rgb(232, 231, 235);
-    cursor: text;
+    background-image: url("images/rainbow-colors-background.jpg");
+
 }
+
 
 header {
     font-family: 'Courier New', Courier, monospace;
@@ -14,8 +33,72 @@ header {
 }
 
 .easel {
+
+    background: white;
     border: solid 1px black;
     height: 600px;
     margin: 10% 20%;
+    cursor: url(http://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;
 }
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 30% 2%;
+    text-align: center;
+}
+
+.blue {
+    border: solid 1px blue;
+    height: 45px;
+    margin: 10% 30%;
+    background: blue;
+}
+
+.green {
+    border: solid 1px rgb(21, 231, 21);
+    height: 45px;
+    margin: 10% 30%;
+    background: rgb(21, 231, 21);
+}
+
+.red {
+    border: solid 1px rgb(231, 46, 21);
+    height: 45px;
+    margin: 10% 30%;
+    background:  rgb(231, 46, 21);
+}
+
+.pink {
+    border: solid 1px rgb(231, 21, 186);
+    height: 45px;
+    margin: 10% 30%;
+    background:  rgb(231, 21, 186);
+}
+
+.purple {
+    border: solid 1px rgb(172, 18, 233);
+    height: 45px;
+    margin: 10% 30%;
+    background:  rgb(172, 18, 233);
+}
+
+.yellow {
+    border: solid 1px yellow;
+    height: 45px;
+    margin: 10% 30%;
+    background: yellow;
+}
+
+.eraser {
+    width: 130px;
+    margin-bottom: 30px;
+
+}
+
 

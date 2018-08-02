@@ -5,11 +5,8 @@
  $(document).ready(function(){
 
     $(".easel").mouseover(function(){
-        alert("paint");
+        console.log(("paint"));
     });
-
-    $('body').awesomeCursor('pencil');
-
 
 
 });
